@@ -1,0 +1,7 @@
+{
+    "scripts": {
+      "build": "cd front-end && yarn build",
+      "install": "cd ./back-end && yarn --production=false & cd ./front-end && yarn --production=false",
+      "start": "yarn install && cd ./back-end && yarn start & cd ./front-end && yarn start"
+    }
+}
